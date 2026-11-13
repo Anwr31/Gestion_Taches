@@ -46,3 +46,7 @@ while True:
 
     else:
         print("Erreur : choix invalide. Veuillez réessayer.")
+
+
+        
+#Modification pour le dernier commit
