@@ -29,6 +29,9 @@ while True:
 
     elif choix == "3":
         mot_cle = input("Entrez un mot-clé : ").strip().lower()
+        if mot_cle == "":
+            print("Veuillez entrer un mot-clé.")
+            continue
 
         trouve = False
 
@@ -48,5 +51,5 @@ while True:
         print("Erreur : choix invalide. Veuillez réessayer.")
 
 
-        
+
 #Modification pour le dernier commit
